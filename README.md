@@ -1,12 +1,7 @@
 ## Housing Price Predictor
-
-[![GitHub top language](https://img.shields.io/github/languages/top/vaibhavvikas/housing-price-predictor)](#)
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vaibhavvikas/housing-price-predictor)](#)
-[![GitHub stars](https://img.shields.io/github/stars/vaibhavvikas/housing-price-predictor)](https://github.com/vaibhavvikas/housing-price-predictor/stargazers)
-
 A machine learning project to predict the housing price based on Kaggle Housing Prices Competition
 
-link: [Kaggle Leaderboard](https://www.kaggle.com/competitions/home-data-for-ml-course/leaderboard#)
+
 
 ## Information:
 
@@ -25,7 +20,7 @@ Having columns with a large range of string/object values often result in a lot 
 1) **A Simple Option:** Drop Columns with Missing Values
 The simplest option is to drop columns with missing values.
 
-[![drop_columns](https://i.imgur.com/Sax80za.png)](#)
+
 
 Unless most values in the dropped columns are missing, the model loses access to a lot of (potentially useful!) information with this approach. As an extreme example, consider a dataset with 10,000 rows, where one important column is missing a single entry. This approach would drop the column entirely!
 
